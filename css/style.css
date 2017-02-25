@@ -223,12 +223,9 @@ body {
     display: inline-block;
     margin-right: 40px; }
 
-.k:hover .kek {
-  display: none; }
-.k:hover .kek2 {
-  display: block; }
-
-.kek2 {
-  display: none; }
+.fa {
+  color: #4da7ff; }
+  .fa:hover {
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
