@@ -106,14 +106,9 @@
     }
   }
 }
-.k:hover{
-  .kek{
-    display: none;
+.fa{
+  color: #4da7ff;
+  &:hover{
+    color: white;
   }
-  .kek2{
-    display: block;
-  }
-}
-.kek2{
-  display: none;
 }
