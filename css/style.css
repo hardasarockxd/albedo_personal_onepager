@@ -228,4 +228,9 @@ body {
   .fa:hover {
     color: white; }
 
+.block3__top {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
 /*# sourceMappingURL=style.css.map */
