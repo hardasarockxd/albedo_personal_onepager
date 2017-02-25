@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+@import url("https://fonts.googleapis.com/css?family=Cambay");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+@import url("https://fonts.googleapis.com/css?family=Cambay");
+body {
+  margin: 0; }
+
+.block {
+  width: 100%;
+  min-height: 700px; }
+
+.block_1 {
+  position: relative;
+  background-image: url("../images/header_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.container {
+  max-width: 1200px;
+  padding: 60px;
+  margin: 0 auto; }
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap; }
+
+.header__logo_albedo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap; }
+  .header__logo_albedo :hover {
+    cursor: default; }
+
+.logo {
+  width: 50px;
+  height: 60px;
+  background-image: url("../images/logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin: auto 0; }
+
+.albedo {
+  color: white;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: auto 0;
+  margin-left: 10px; }
+
+.header__menu {
+  display: inline-block; }
+  .header__menu ul {
+    margin: 0;
+    list-style: none;
+    font-size: 0; }
+  .header__menu li {
+    font-size: 20px;
+    display: inline-block;
+    font-family: "Work Sans", sans-serif;
+    line-height: 60px;
+    margin-left: 40px; }
+    .header__menu li :hover {
+      color: #788790; }
+  .header__menu a {
+    color: white;
+    text-decoration: none; }
+
+.header__button {
+  line-height: 60px; }
+
+.header__button2 {
+  width: 160px;
+  height: 40px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  background: transparent;
+  color: yellow;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  outline: none;
+  margin: auto 0; }
+  .header__button2:hover {
+    box-shadow: 11px 9px 25px 0px rgba(184, 175, 50, 0.61);
+    cursor: pointer; }
+
+.end__block1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  color: white;
+  margin-top: 130px;
+  max-width: 490px; }
+
+.end__div1 {
+  font-family: "Leckerli One", cursive;
+  font-size: 30px; }
+
+.end__div2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 50px; }
+  .end__div2 span {
+    color: #0081ff; }
+
+.end__div3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px; }
+
+.end__div4 {
+  font-family: "Cambay", sans-serif;
+  font-size: 20px;
+  color: #636363; }
+
+.end__div5 {
+  border: 7px solid #242424;
+  background-color: #2b2b2b;
+  border-radius: 40px;
+  max-width: 100px;
+  padding: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px; }
+  .end__div5:hover {
+    color: #788790;
+    cursor: pointer; }
+
+.block2 {
+  background-color: #0081ff;
+  color: white; }
+
+.first_part__block2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+
+.about_me__block2 {
+  font-family: "Leckerli One", cursive;
+  font-size: 30px; }
+
+.investigationes {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px; }
+
+.questigationes, .eodem {
+  font-family: "Cambay", sans-serif;
+  font-size: 20px; }
+
+.eodem {
+  margin-top: 20px; }
+
+.first1_part__block {
+  max-width: 400px; }
+
+.first2_part__block {
+  max-width: 552px;
+  margin-left: 40px;
+  margin-top: 65px; }
+
+.blue__block {
+  background-color: #007af2;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  padding: 80px 0; }
+  .blue__block_first {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+    .blue__block_first_1_pic {
+      width: 60px;
+      height: 60px;
+      background-image: url("../images/block2_logo1.jpg");
+      background-repeat: no-repeat; }
+    .blue__block_first_2 {
+      margin-left: 50px; }
+      .blue__block_first_2_1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        max-width: 172px;
+        margin-bottom: 20px; }
+      .blue__block_first_2_2 {
+        font-family: "Cambay", sans-serif;
+        font-size: 18px;
+        max-width: 263px; }
+
+.pic3 {
+  background-image: url("../images/block2_logo3.jpg");
+  background-repeat: no-repeat; }
+
+.pic2 {
+  background-image: url("../images/block2_logo2.jpg");
+  background-repeat: no-repeat; }
+
+.bl2 {
+  max-width: 300px; }
+
+.bl22 {
+  max-width: 310px; }
+
+.bl3 {
+  max-width: 300px; }
+
+.block2_end {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .block2_end_fm {
+    font-family: "Cambay", sans-serif;
+    font-size: 25px;
+    margin: auto 0; }
+
+.block2_end_socialnetworks_ul {
+  list-style: none; }
+  .block2_end_socialnetworks_ul li {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-right: 40px; }
+
+.k:hover .kek {
+  display: none; }
+.k:hover .kek2 {
+  display: block; }
+
+.kek2 {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
