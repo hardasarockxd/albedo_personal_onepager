@@ -88,7 +88,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-weight: bold;
   outline: none;
-  margin: auto 0;
+  line-height: 40px;
   box-shadow: 11px 9px 25px 0px rgba(184, 175, 50, 0.61); }
   .header__button2:hover {
     box-shadow: none;
@@ -266,9 +266,10 @@ body {
       transition: .4s;
       box-shadow: none; }
     .block3__top_part2_btn_a {
-      text-decoration: none;
       color: white;
       margin-left: 20%; }
+      .block3__top_part2_btn_a:hover {
+        text-decoration: none; }
 
 .block3__portfolio {
   margin-bottom: 100px; }
@@ -277,7 +278,8 @@ body {
     background-image: url("../images/pic1_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 10% 75%; }
+    background-position: 10% 75%;
+    position: relative; }
   .block3__portfolio_part1_2 {
     height: 200px;
     background-image: url("../images/pic1_2.2.jpg");
@@ -307,5 +309,46 @@ body {
     background-image: url("../images/pic2_3.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
+
+.blinds:hover .blind {
+  display: block; }
+
+.blind {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .blind .block3_h3 {
+    display: block; }
+  .blind .block3_div1 {
+    display: block; }
+  .blind .block3_div2 {
+    display: block; }
+
+.block3_h3 {
+  display: none;
+  color: #74858e;
+  font-family: "Cambay", sans-serif;
+  margin: 0 auto; }
+.block3_div1 {
+  display: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  color: white; }
+.block3_div2 {
+  display: none;
+  text-align: center; }
+  .block3_div2_1 {
+    color: #75858e; }
+.block3_end_margin {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin-top: 10%; }
 
 /*# sourceMappingURL=style.css.map */
