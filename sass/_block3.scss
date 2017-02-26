@@ -1,3 +1,4 @@
+@import 'vars';
 .block3__top{
   display: flex;
   flex-flow: row wrap;
@@ -12,12 +13,13 @@
     &_i-make-more{
       font-family: $monsterrat;
       font-size: 30px;
-      font-weight: 900;
+      font-weight: bold;
       margin-bottom: 20px;
     }
   }
   &_part2{
     &_btn{
+      margin-top: 20px;
       width: 250px;
       height: 50px;
       border: none;
@@ -39,6 +41,54 @@
         color: $color_white;
         margin-left: 20%;
       }
+    }
+  }
+}
+.block3__portfolio{
+  margin-bottom: 100px;
+  &_part1{
+    &_1{
+      height: 250px;
+      background-image: url("../images/pic1_1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 10% 75%;
+    }
+    &_2{
+      height: 200px;
+      background-image: url("../images/pic1_2.2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &_3{
+      height: 200px;
+      background-image: url("../images/pic1_3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 10%;
+    }
+  }
+  &_part2{
+    &_1{
+      height: 450px;
+      background-image: url("../images/pic2_1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &_2{
+      height: 225px;
+      background-image: url("../images/pic2_2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &_3{
+      height: 225px;
+      background-image: url("../images/pic2_3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 }
