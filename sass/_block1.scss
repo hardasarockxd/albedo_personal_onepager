@@ -73,6 +73,9 @@ body{
   a{
     color: $color_white;
     text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
   }
 }
 .header__button{
@@ -128,7 +131,7 @@ body{
   border: 7px solid #242424;
   background-color: #2b2b2b;
   border-radius: 40px;
-  max-width: 100px;
+  width: 140px;
   padding: 10px 20px;
   font-family: $monsterrat;
   margin-top: 20px;

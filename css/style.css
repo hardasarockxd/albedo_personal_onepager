@@ -74,6 +74,8 @@ body {
   .header__menu a {
     color: white;
     text-decoration: none; }
+    .header__menu a:hover {
+      text-decoration: none; }
 
 .header__button {
   line-height: 60px; }
@@ -126,7 +128,7 @@ body {
   border: 7px solid #242424;
   background-color: #2b2b2b;
   border-radius: 40px;
-  max-width: 100px;
+  width: 140px;
   padding: 10px 20px;
   font-family: "Montserrat", sans-serif;
   margin-top: 20px; }
@@ -267,7 +269,8 @@ body {
       box-shadow: none; }
     .block3__top_part2_btn_a {
       color: white;
-      margin-left: 20%; }
+      margin-left: 20%;
+      text-decoration: none; }
       .block3__top_part2_btn_a:hover {
         text-decoration: none; }
 
