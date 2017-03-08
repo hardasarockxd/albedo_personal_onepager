@@ -1,0 +1,63 @@
+.second_block
+  background-color: $blue_color
+  &__text_content
+    display: flex
+    flex-flow: row wrap
+    &_1
+      margin-left: 0
+      h2
+        max-width: 400px
+        font-family: $m_font
+        font-weight: 900
+      h3
+        font-family: $l_font
+    &_2
+      p
+        max-width: 565px
+        font-family: $c_font
+  .social_networks
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-around
+    h4
+      font-family: $c_font
+    ul
+      list-style: none
+      li
+        margin-right: 30px
+        display: inline-block
+        a
+          text-decoration: none
+          i
+            color: white
+            transition: .3s
+            &:hover
+              color: black
+              cursor: pointer
+.services
+  width: 100%
+  background-color: $dark-blue_color
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-around
+  padding-top: 50px
+  padding-bottom: 50px
+  &_web
+    background-image: url(../images/block2_logo1.jpg)
+    background-repeat: no-repeat
+    max-width: 400px
+    h3
+      font-family: $m_font
+      max-width: 200px
+      margin-left: 100px
+      margin-top: 0
+    p
+      font-family: $c_font
+      max-width: 300px
+      margin-left: 100px
+  &_brand
+    @extend .services_web
+    background-image: url(../images/block2_logo2.jpg)
+  &_html
+    @extend .services_web
+    background-image: url(../images/block2_logo3.jpg)
