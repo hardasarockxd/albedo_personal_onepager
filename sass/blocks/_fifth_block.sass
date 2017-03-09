@@ -1,0 +1,152 @@
+.fifth_block
+  color: black
+  min-height: 700px
+  display: flex
+  flex-flow: column
+  padding: 100px 0
+  &__1
+    margin: 0 25px
+    &_text
+      padding: 0 50px 0 0
+      &_1
+        font-family: $l_font
+        color: $grey_color
+      &_2
+        font-family: $m_font
+        font-weight: 900
+      &_3
+        font-family: $m_font
+        font-weight: 900
+        margin-top: -20px
+      p
+        font-family: $c_font
+        color: $grey_color
+        max-width: 350px
+    &_blue
+      background-color: #007df7
+      box-shadow: 0px 0px 90px 0px rgba(29, 200, 210, 0.9)
+      color: white
+      padding: 0 50px
+      h4
+        text-align: center
+        font-weight: bolder
+        font-family: $m_font
+        span
+          color: yellow
+      p
+        font-family: $cou_font
+        max-width: 300px
+        margin: 0 auto
+        text-align: center
+    &_video
+      display: flex
+      flex-flow: row wrap
+      justify-content: space-between
+      &_standart
+        background-image: url("../images/block5_1.jpg")
+        background-repeat: no-repeat
+        background-size: cover
+        height: 200px
+        width: 170px
+        box-shadow: 0px 0px 90px 0px rgba(186, 186, 186, 0.94)
+        h5
+          color: $grey_color
+          font-family: $m_font
+          font-weight: bolder
+          text-align: center
+        h4
+          font-family: $m_font
+          font-weight: 900
+          text-align: center
+      &_video
+        background-image: url("../images/block5_2.jpg")
+        background-repeat: no-repeat
+        background-size: cover
+        height: 200px
+        width: 170px
+        color: white
+        box-shadow: 0px 0px 90px 0px rgba(186, 186, 186, 0.94)
+        h5
+          font-family: $m_font
+          font-weight: bolder
+          text-align: center
+        h4
+          font-family: $m_font
+          font-weight: 900
+          text-align: center
+          margin-top: -20px
+        i
+          display: block
+          text-align: center
+          position: relative
+          bottom: 20px
+@media screen and (max-width:350px)
+  .fifth_block__1_video_standart
+    width: 100%
+  .fifth_block__1_video_video
+    width: 100%
+.fifth_block__2
+  @extend .fifth_block__1
+  &_gallery
+    background-image: url("../images/block5_3.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    color: white
+    padding: 101px 50px
+    box-shadow: 0px 0px 30px 0px rgba(69, 69, 69, 0.95)
+    h5
+      font-family: $m_font
+      font-weight: 900
+      color: $grey_color
+    h4
+      font-family: $m_font
+      font-weight: 900
+    p
+      font-family: $c_font
+      max-width: 400px
+    &_button
+      font-family: $m_font
+      font-weight: bold
+      background-color: #fefb30
+      border-radius: 30px
+      display: inline
+      padding: 5px 10px
+      box-shadow: 0px 6px 25px 0px rgba(255, 249, 96, 0.97)
+      &:hover
+        box-shadow: none
+      a
+        color: black
+  &_2
+    box-shadow: 0px 0px 30px 0px rgba(69, 69, 69, 0.95)
+    display: flex
+    flex-flow: row nowrap
+    margin-top: 27px
+    max-width: 496px
+    &_standart
+      height: 200px
+      padding-left: 30px
+      h5
+        font-family: $m_font
+        font-weight: 900
+        color: $grey_color
+      h4
+        font-family: $m_font
+        font-weight: 900
+        max-width: 250px
+      p
+        font-family: $c_font
+        max-width: 300px
+        color: $grey_color
+        margin-top: -20px
+    &_pink
+      background-color: #e91d62
+      padding: 0 30px
+      &_block
+        margin: 50% auto
+        h4
+          margin: 0
+          font-family: $m_font
+          font-weight: bold
+@media screen and (max-width:1046px)
+  .fifth_block__1
+    width: 100%
