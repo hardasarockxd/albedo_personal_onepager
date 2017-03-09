@@ -1,0 +1,91 @@
+.sixth_block
+  background-image: url("../images/block6_1.jpg")
+  color: white
+  font-family: $c_font
+  padding: 100px 70px
+  span
+    color: $grey_color
+  a
+    color: #0b65c4
+  h3
+    font-family: $l_font
+  h2
+    font-family: $m_font
+    font-weight: 900
+  &__first
+    &_p
+      margin: 0
+    &_social
+      ul
+        padding: 0
+        list-style: none
+        li
+          margin-right: 30px
+          display: inline-block
+          a
+            i
+              color: white
+              transition: .3s
+              &:hover
+                color: $grey_color
+.sixth_block__second
+  margin-top: 50px
+  h2
+    font-family: $m_font
+    font-weight: 900
+  h5
+    color: $grey_color
+    font-family: $c_font
+  &__form
+    display: flex
+    flex-flow: column wrap
+    max-width: 600px
+    border: 1px solid green
+    form
+      width: 100%
+.sixth_block__second_input_main
+  display: flex
+  justify-content: space-between
+  border: 1px solid red
+  display: flex
+  flex-flow: row
+  &_1
+    width: 50%
+    border: 1px solid white
+  &_2
+    @extend .sixth_block__second_input_main_1
+.sixth_block__second_input
+  outline: none
+  border-radius: 30px
+  // padding: 10px 25px
+  border: 1px solid #2e2e2e
+  background-color: #2b2b2b
+  color: white
+  font-size: 16px
+  width: 100%
+  &:focus
+    background-color: #2b2b2b
+    border: 1px solid #8799a3
+    background-color: #212121
+textarea
+  resize: none
+  margin: 50px 0
+  outline: none
+  border-radius: 30px
+  border: 1px solid #2e2e2e
+  background-color: #2b2b2b
+  color: white
+  font-size: 16px
+  width: 100%
+.sixth_block__second_submit
+  background-color: #007efa
+  border-radius: 20px
+  border: none
+  outline: none
+  color: white
+  font-family: $m_font
+  font-weight: bold
+  box-shadow: 0px 5px 30px 0px rgba(48, 115, 193, 0.96)
+  cursor: pointer
+  &:hover
+    box-shadow: none
