@@ -294,7 +294,7 @@ header {
               color: white; }
     .third_block__portfolio_first {
       width: 50%;
-      min-width: 400px; }
+      min-width: 440px; }
       .third_block__portfolio_first_1 {
         height: 60%;
         width: 100%;
@@ -336,7 +336,7 @@ header {
       -ms-flex-flow: wrap;
       flex-flow: wrap;
       width: 50%;
-      min-width: 400px; }
+      min-width: 440px; }
       .third_block__portfolio_second_1 {
         height: 100%;
         width: 50%;
@@ -368,7 +368,7 @@ header {
             width: 100%;
             height: 100%; }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 880px) {
   .third_block__portfolio_first {
     width: 100%; }
   .third_block__portfolio_second {
