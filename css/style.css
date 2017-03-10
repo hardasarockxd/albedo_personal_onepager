@@ -336,7 +336,8 @@ header {
       -ms-flex-flow: wrap;
       flex-flow: wrap;
       width: 50%;
-      min-width: 400px; }
+      min-width: 400px;
+      height: 100%; }
       .third_block__portfolio_second_1 {
         height: 100%;
         width: 50%;
