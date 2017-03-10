@@ -272,7 +272,7 @@ header {
         -webkit-flex-flow: column wrap;
         -ms-flex-flow: column wrap;
         flex-flow: column wrap;
-        margin: 15% auto; }
+        margin: 10% auto; }
         .third_block__portfolio_hover_main p {
           text-align: center;
           font-family: "Cambay", sans-serif;
