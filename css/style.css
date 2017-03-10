@@ -611,6 +611,8 @@ header {
 
 .sixth_block {
   background-image: url("../images/block6_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   font-family: "Cambay", sans-serif;
   padding: 100px 70px; }
