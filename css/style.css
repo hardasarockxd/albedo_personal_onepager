@@ -178,6 +178,7 @@ header {
         margin-right: 30px;
         display: inline-block; }
         .second_block .social_networks ul li a i {
+          margin: 15px;
           color: white;
           transition: .3s; }
           .second_block .social_networks ul li a i:hover {
