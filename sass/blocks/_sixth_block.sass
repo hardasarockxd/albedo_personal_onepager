@@ -39,37 +39,42 @@
   &__form
     display: flex
     flex-flow: column wrap
-    max-width: 600px
-    border: 1px solid green
+    max-width: 800px
     form
       width: 100%
+      height: 100%
 .sixth_block__second_input_main
   display: flex
-  justify-content: space-between
-  border: 1px solid red
-  display: flex
-  flex-flow: row
+  flex-flow: row wrap
   &_1
-    width: 50%
-    border: 1px solid white
+    width: 45%
+    min-width: 200px
+    margin-right: 30px
   &_2
     @extend .sixth_block__second_input_main_1
 .sixth_block__second_input
   outline: none
   border-radius: 30px
-  // padding: 10px 25px
-  border: 1px solid #2e2e2e
+  padding: 10px
   background-color: #2b2b2b
   color: white
   font-size: 16px
   width: 100%
+  border: 1px solid #2f2f2f
   &:focus
     background-color: #2b2b2b
     border: 1px solid #8799a3
     background-color: #212121
+@media screen and (max-width: 790px)
+  .sixth_block__second_input_main_1
+    width: 100%
+    margin-top: 10px
+  .sixth_block__second_input_main_2
+    width: 100%
+    margin-top: 10px
 textarea
   resize: none
-  margin: 50px 0
+  margin: 30px 0
   outline: none
   border-radius: 30px
   border: 1px solid #2e2e2e
@@ -77,9 +82,21 @@ textarea
   color: white
   font-size: 16px
   width: 100%
+  min-height: 150px
+  padding: 10px
+  border: 1px solid #2f2f2f
+  &:focus
+    background-color: #2b2b2b
+    border: 1px solid #8799a3
+    background-color: #212121
+.sixth_block__second_textarea
+  display: flex
+  max-width: 600px
+  min-height: 300px
+  flex-flow: row wrap
 .sixth_block__second_submit
   background-color: #007efa
-  border-radius: 20px
+  border-radius: 30px
   border: none
   outline: none
   color: white
@@ -87,5 +104,6 @@ textarea
   font-weight: bold
   box-shadow: 0px 5px 30px 0px rgba(48, 115, 193, 0.96)
   cursor: pointer
+  padding: 20px 50px
   &:hover
     box-shadow: none
